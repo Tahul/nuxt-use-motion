@@ -1299,16 +1299,16 @@
     webpack-node-externals "^2.5.2"
     webpackbar "^4.0.0"
 
-"@nuxtjs/composition-api@^0.22.1":
-  version "0.22.1"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/composition-api/-/composition-api-0.22.1.tgz#aa14065b489bbdd3ce72f32132d8a7ffd96ac1a6"
-  integrity sha512-47yAd9GCj2K7OLmM/U03LkldNyXU0zGEjgUrIodD/2vMZArGjFsPoRns6K4oIvvUKeia8MXzjEMYxAsSm5IFlw==
+"@nuxtjs/composition-api@^0.23.4":
+  version "0.23.4"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/composition-api/-/composition-api-0.23.4.tgz#75bcafc1d1df368066ef989230ac317834f510dc"
+  integrity sha512-sXOYtIQoLwhZv843BEcyp4OBPLULsOcr8wT8qgfvDoP64bOqPFmZvdbYM/Ieht2k1Wtpdam3TfEUog1VU4FamA==
   dependencies:
-    "@vue/composition-api" "1.0.0-rc.5"
-    defu "^3.2.2"
+    "@vue/composition-api" "1.0.0-rc.7"
+    defu "^4.0.1"
     estree-walker "^2.0.2"
     magic-string "^0.25.7"
-    ufo "^0.6.10"
+    ufo "^0.7.2"
     upath "^2.0.1"
 
 "@nuxtjs/eslint-config-typescript@latest":
@@ -1935,12 +1935,12 @@
   optionalDependencies:
     prettier "^1.18.2"
 
-"@vue/composition-api@1.0.0-rc.5":
-  version "1.0.0-rc.5"
-  resolved "https://registry.yarnpkg.com/@vue/composition-api/-/composition-api-1.0.0-rc.5.tgz#9b857743dd2692073b6df90fa2cfb9a75a1bb2f6"
-  integrity sha512-sFBUDZxwi5YOQqH//VSGenO6WH0JuW94+CWo1eUsGSTRue8POfwD4oeduVqi/c6QcwXg2tJL/m6aOD2t/IR6zg==
+"@vue/composition-api@1.0.0-rc.7":
+  version "1.0.0-rc.7"
+  resolved "https://registry.yarnpkg.com/@vue/composition-api/-/composition-api-1.0.0-rc.7.tgz#05a9e81ad91d85d3390b1386c0079666d2e1b3bb"
+  integrity sha512-aj/lWD+9dmJ+r9qkbASByqlphkbwvZ8q1T7yC5H1leWSdtxfWg7tDR98vZEKzjikRSztwC7xrtrLwOnt8glQDA==
   dependencies:
-    tslib "^2.1.0"
+    tslib "^2.2.0"
 
 "@vueuse/core@^4.4.1":
   version "4.4.1"
@@ -3834,6 +3834,11 @@ defu@^3.2.2:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/defu/-/defu-3.2.2.tgz#be20f4cc49b9805d54ee6b610658d53894942e97"
   integrity sha512-8UWj5lNv7HD+kB0e9w77Z7TdQlbUYDVWqITLHNqFIn6khrNHv5WQo38Dcm1f6HeNyZf0U7UbPf6WeZDSdCzGDQ==
+
+defu@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/defu/-/defu-4.0.1.tgz#9d7d7a48f9295f08285d153dcff174c89b9bcb22"
+  integrity sha512-lC+G0KvvWRbisQa50+iFelm3/eMmwo4IlBmfASOVlw9MZpHHyQeVsZxc5j23+TQy5ydgEoTVSrWl7ptou1kzJQ==
 
 depd@~1.1.2:
   version "1.1.2"
@@ -9530,6 +9535,11 @@ tslib@^2.0.3, tslib@^2.1.0:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.1.0.tgz#da60860f1c2ecaa5703ab7d39bc05b6bf988b97a"
   integrity sha512-hcVC3wYEziELGGmEEXue7D75zbwIIVUMWAVbHItGPx0ziyXxrOMQx4rQEVEV45Ut/1IotuEvwqPopzIOkDMf0A==
 
+tslib@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.2.0.tgz#fb2c475977e35e241311ede2693cee1ec6698f5c"
+  integrity sha512-gS9GVHRU+RGn5KQM2rllAlR3dU6m7AcpJKdtH8gFvQiC4Otgk98XnmMU+nZenHt/+VhnBPWwgrJsyrdcw6i23w==
+
 tsutils@^3.17.1:
   version "3.20.0"
   resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-3.20.0.tgz#ea03ea45462e146b53d70ce0893de453ff24f698"
@@ -9589,15 +9599,15 @@ ua-parser-js@^0.7.24:
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.24.tgz#8d3ecea46ed4f1f1d63ec25f17d8568105dc027c"
   integrity sha512-yo+miGzQx5gakzVK3QFfN0/L9uVhosXBBO7qmnk7c2iw1IhL212wfA3zbnI54B0obGwC/5NWub/iT9sReMx+Fw==
 
-ufo@^0.6.10:
-  version "0.6.10"
-  resolved "https://registry.yarnpkg.com/ufo/-/ufo-0.6.10.tgz#c7ace9b8f72cb08c35e3a8c8edc76f062fbaa7d0"
-  integrity sha512-sMbJnrBcKKsbVyr6++hb0n9lCmrMqkJrNnJIOJ3sckeqY6NMfAULcRGbBWcASSnN1HDV3YqiGCPzi9RVs511bw==
-
 ufo@^0.6.7:
   version "0.6.7"
   resolved "https://registry.yarnpkg.com/ufo/-/ufo-0.6.7.tgz#e39995c2208ac66f23fc1dfbc090e307ab0ab92b"
   integrity sha512-pSaIXMAb5RTmuGEzSwqxvIt9x6qgsSXh3/dJXAaLGedT9oz2xqWCXvliFTCSUQxwHlG2fL3tseCFKoNEWpo31w==
+
+ufo@^0.7.2:
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/ufo/-/ufo-0.7.2.tgz#a0e3c9f1b1d9b55f60e068d17afd6ffbdc4fbd62"
+  integrity sha512-cfxpkL4g79LrCXa1RyvhM/obxunKRjHApD4Ml4UG0CZcKvfodfKH0YTmnm6ofKKUnLzBMdfXSZzlgyQmj6b3sw==
 
 uglify-js@^3.1.4, uglify-js@^3.5.1:
   version "3.12.8"

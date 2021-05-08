@@ -36,7 +36,7 @@ const nuxtModule: Module<ModuleOptions> = async function (moduleOptions) {
 
   this.nuxt.options.build.transpile.push('defu')
 
-  await this.addModule('@nuxtjs/composition-api')
+  await this.addModule('@nuxtjs/composition-api/module')
 }
 
 ;(nuxtModule as any).meta = require('../package.json')
